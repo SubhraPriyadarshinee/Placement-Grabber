@@ -20,8 +20,8 @@ html, body, #wrapper {
 
 
 .main{
-  background: linear-gradient(120deg, #bc9ffc 0% 10%, #bfb5fc 10% 20%,#b9d0fa,#c4d0f8,#c5c9f8,#c2c9f7,#e8cdf3,#f4cbef,#facbed);
-  height: 100vh;
+  background: linear-gradient(110deg, #bc9ffc 0% 10%, #bfb5fc 10% 20%,#b9d0fa,#c4d0f8 40% 50%,#c5c9f8 50% 55%,#c2c9f7 55%,#e8cdf3,#f4cbef,#facbed);
+    height: 100vh;
 
 }
 
