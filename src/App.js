@@ -1,10 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Appbody from './Appbody'
 
-function App() {
+const App= () => {
   return (
     <div className="App">
-     <p> yo world</p> 
+      <div className="main">
+      <Appbody/>
+
+      </div>
     </div>
   );
 }
