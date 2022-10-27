@@ -38,6 +38,7 @@
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   opacity: 60%;
+  border: 0.5rem solid #e8e6f0;
 }
 
 
