@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Baloo2";
+  src: local("Baloo2"), url(./fonts/Baloo2-Regular.ttf) format("truetype");
+}
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +10,11 @@
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+  font-family: Baloo2;
+}
+
+a {
+  color: white;
 }
 
 .App {
@@ -14,41 +23,145 @@
   padding: 0;
 }
 
-
-.main{
-  background: linear-gradient(110deg, #bc9ffc 0% 10%, #bfb5fc 10% 20%,#b9d0fa,#c4d0f8 40% 50%,#c5c9f8 50% 55%,#c2c9f7 55%,#e8cdf3,#f4cbef,#facbed);
-    height: 100vh;
-    /* background-color: aqua; */
-   
+.main {
+  background: linear-gradient(
+    110deg,
+    #bc9ffc 0% 10%,
+    #bfb5fc 10% 20%,
+    #b9d0fa,
+    #c4d0f8 40% 50%,
+    #c5c9f8 50% 55%,
+    #c2c9f7 55%,
+    #e8cdf3,
+    #f4cbef,
+    #facbed
+  );
+  height: 100vh;
+  /* background-color: aqua; */
 }
-.flex_container{
- display: flex;
- align-items: center;
- justify-content: center;
- height: 100vh;
- opacity: 90%;
+.flex_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  opacity: 90%;
 }
 
-.glass{
+.glass {
   min-height: 80vh;
   width: 80%;
-  background: white;
+  background: #eef3d2;
   border-radius: 16px;
   box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   opacity: 60%;
   border: 0.5rem solid #e8e6f0;
+  display: flex;
 }
-
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
   .glass {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    background-color: white;  
+    background-color: #f3f5e9;
   }
-  
 }
 
+#app_logo {
+  width: 60px;
+  height: 50px;
+}
 
+.aa {
+  border-radius: 16px;
+}
+.b {
+  width: 100%;
+  border-radius: 0 16px 16px 0;
+}
+.c {
+  background: green;
+  border-radius: 0 16px 0 0;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex: 1;
+}
+.f {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.g {
+  display: flex;
+}
+.h {
+  /* background: hotpink; */
+}
+.i {
+  /* background: khaki; */
+}
+.j {
+  flex: 1;
+  /* background: indigo; */
+}
+.k {
+  flex: 1;
+  /* background: indianred; */
+}
+.l {
+  background: yellow;
+  flex: 1;
+}
+.m {
+  background: red;
+  flex: 1;
+}
+.n {
+  background: teal;
+  flex: 1;
+}
+
+/* side navigation  */
+.side_nav {
+  width: 20%;
+  background: white;
+  border-radius: 16px;
+}
+/* side nav header  */
+.side_nav_header_content {
+  display: flex;
+  align-items: center;
+}
+.side_nav_header_content_name {
+  font-family: Baloo2;
+}
+
+/* side nav list  */
+
+.side_nav_list {
+  font-size: 0.7rem;
+}
+
+.side_nav_list_content_item {
+  display: flex;
+  background: linear-gradient(to right, #ebe5f5, 10%, white);
+  border-left: 0.2rem solid #bca0f8;
+  padding: 14px;
+}
+.side_nav_list_content_item_icon {
+  color: #9674cb;
+  padding: 3px;
+}
+.side_nav_list_content_item_text {
+  margin-left: 5px;
+}
+
+.chart {
+  position: relative;
+  height: 20vh !important;
+  width: 30vw;
+}
