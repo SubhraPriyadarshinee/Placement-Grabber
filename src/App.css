@@ -48,14 +48,13 @@ a {
 }
 
 .glass {
-  min-height: 80vh;
-  width: 80%;
+  min-height: 85vh;
+  width: 95%;
   background: #eef3d2;
   border-radius: 16px;
   box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  opacity: 60%;
   border: 0.5rem solid #e8e6f0;
   display: flex;
 }
